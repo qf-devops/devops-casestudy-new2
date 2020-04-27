@@ -1,0 +1,17 @@
+1. CI
+
+ 1. Jenkins /Giuthub actions
+ 2. nexus repo for maven artifacts and for docker images
+ 3. sonarqube and implment sonar quality gateway as part of Jenkins file
+
+2.  CD
+
+    1. ansible   --> tomcat or jetty server
+    2. kubectl  --> kubectl with client (kubeadm , GKE, AKS)
+
+3. CT :
+
+     selenium , testNG, maven --> use docker
+
+4. CM:
+    prometheus and grafana  --> Use docker Conatiners
